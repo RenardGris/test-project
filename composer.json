@@ -1,0 +1,11 @@
+{
+    "name": "flo/exo_cicd",
+    "autoload": {
+        "psr-4": {
+            "Class\\": "src/Class"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^10.1"
+    }
+}
