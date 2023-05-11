@@ -1,0 +1,22 @@
+# Déclancher a chaque push sur la branche master
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  demo:
+    name: demo-ci
+    runs-on: ubunutu-latest
+    steps:
+      - name: affichages
+        run: echo "Hello world !"
+        
+  # dependancies:
+  #  name: install-dependancies
+  #  needs: demo
+  # runs-on: ubuntu-latest
+  # tests:
+  #  name: phpunit-test
+  #  needs: dependancies
+  #  runs-on: ubuntu-latest
