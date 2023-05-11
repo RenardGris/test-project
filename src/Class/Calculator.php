@@ -12,7 +12,7 @@ class Calculator
 
     public function subtract(float|int $firstNumber, float|int $secondNumber): float|int
     {
-        return $firstNumber + $secondNumber;
+        return $firstNumber - $secondNumber;
     }
 
 }
