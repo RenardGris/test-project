@@ -14,6 +14,7 @@ jobs:
       - name: Récupérer le code
         uses: actions/checkout@v3
       - name: Installer composer
-        uses: php-actions/composer@v6
+        uses: php-actions/composer@v7
+      - run: ls -la
       - name: Lancer les tests
         run: vendor/bin/phpunit tests/testCalculator
