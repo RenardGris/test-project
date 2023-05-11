@@ -17,4 +17,4 @@ jobs:
         uses: php-actions/composer@v6
       - run: ls -la
       - name: Lancer les tests
-        run: vendor/bin/phpunit tests/testCalculator
+        run: vendor/bin/phpunit tests/testCalculator.php
